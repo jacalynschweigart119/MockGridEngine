@@ -1,0 +1,23 @@
+
+---
+
+### **3. 40_LogToneScanner**  
+**Description:**  
+Scans logs to detect anomalies, frequent lines, and abnormal tone shifts (errors/warnings bursts).
+
+#### **README.md**
+```markdown
+# LogToneScanner - Log Frequency & Spike Analyzer
+
+LogToneScanner helps identify spikes, noise, or critical messages that repeat often or cluster unexpectedly.
+
+## Features
+- Burst detection  
+- Keyword grouping  
+- Frequency summary  
+
+## Usage
+```bash
+git clone https://github.com/your-username/40_LogToneScanner.git
+cd 40_LogToneScanner
+python analyze.py logs/app.log
