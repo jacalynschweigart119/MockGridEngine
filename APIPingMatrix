@@ -1,0 +1,23 @@
+
+---
+
+### **2. 40_APIPingMatrix**  
+**Description:**  
+Monitors availability and latency across a matrix of HTTP endpoints.
+
+#### **README.md**
+```markdown
+# APIPingMatrix - Bulk API Latency Tracker
+
+APIPingMatrix is great for testing uptime and response speed of internal and external services in one batch.
+
+## Features
+- Response time + status logging  
+- Compact tabular output  
+- Retry and timeout support  
+
+## Usage
+```bash
+git clone https://github.com/your-username/40_APIPingMatrix.git
+cd 40_APIPingMatrix
+python monitor.py
